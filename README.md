@@ -25,6 +25,5 @@ Anpassning
 • Byt ut `Images/Jag.jpg` mot din egen profilbild.
 • Uppdatera `files/FejkCV.pdf` med ditt eget CV eller meritförteckning.
 • Redigera `index.html`, `style.css` och `script.js` för att lägga till din egen information och personliga design.
-Skärmbild
-![Skärmbild av portföljen](Images/Jag.jpg)
+
 

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons/css/boxicons.min.css" rel="stylesheet">
+
+</head>  
+
+<body>
+
+<div class="icon-links">
+    <a href="https://www.linkedin.com" target="_blank">
+        <i class="bx bxl-linkedin"></i>
+    </a>
+    <a href="https://github.com" target="_blank">
+        <i class="bx bxl-github"></i>
+    </a>
+</div>
+
+    
+<nav>
+    <ul>
+        <li><a href="#about-me">Om mig</a></li>
+        <li><a href="#skills">Kunskaper</a></li>
+        <li><a href="#portfolio">Min portfölj</a></li>
+        <li><a href="#referenser">Referenser</a></li>
+    </ul>
+</nav>    
+
+<main>
+    <header>
+        <h1>Olivia Olsson</h1>
+
+        <img src="images/Jag.jpg" alt="Picture of me" width="400px"/>
+
+        <a href="files/FejkCV.pdf" download="FejkCV.pdf">
+            <button>Ladda ner mitt CV</button>
+        </a>
+        
+        </a>
+    </header>
+
+
+    <section id="about-me">
+        <h2>Om mig</h2>
+        <p>Hej! Jag heter Olivia och jag pluggar på Nackademin.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Kunskaper</h2>
+        <ul class="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript</li>
+            <li>Csharp</li>
+        </ul>
+    </section>
+    
+    <section id="portfolio">
+        <h2>Min portfölj</h2>
+        <div class="portfolio-items">
+            <div class="portfolio-item">
+                <h3>Projekt 1:</h3>
+                <a href="https://github.com/oliviakatrine/Management_App.git" target="_blank" class="github-link">Visa på Github</a>
+            </div>
+            <div class="portfolio-item">
+                <h3>Projekt 2:</h3>  
+                <a href="https://github.com/Grupp-3-OAD/ProductProvider-Kimberly-Olivia.git" target="_blank" class="github-link">Visa på Github</a>  
+            </div>
+
+        <section id="references">
+            <h2>Referenser</h2>
+            <div class="reference">
+              <p><strong>Astrid Holmström</strong> - Webbutvecklare på Icas It-avdelningen</p>
+              <blockquote>
+                "Olivia är en noggrann och arbetsdriven medarbetare som alltid levererar högkvalitativa resultat."
+              </blockquote>
+            </div>
+          
+            <div class="reference">
+              <p><strong>Donna Dehdashtian</strong> - Webbutvecklare på Icas It-avdelning</p>
+              <blockquote>
+                "Jag har haft nöjet att arbeta med Olivia under flera projekt. Hennes förmåga att lösa komplexa problem och hennes passion för webbutveckling är inspirerande."
+              </blockquote>
+            </div>
+          </section>
+
+
+
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <form action="action_page.php">
+            <h2>Kontakt</h2>
+            <label for="name">Namn:</label>
+            <input type="text" id="name" name="name" placeholder="Skriv ditt namn" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Skriv din email" required>
+
+            <label for="message">Meddelande:</label>
+            <textarea id="message" name="message" placeholder= "Skriv ett meddelande" required></textarea>
+
+            <button type="submit" class="submit-button">Skicka</button>
+        </form>
+    </section>
+
+
+</main>
+
+<footer>
+    <p>Följ mig på:</p>
+    <ul>
+    <li><a href="https://www.linkedin.com/in/olivia-olsson-16095432b/" target="_blank">LinkedIn</a></li>
+    <li><a href="https://github.com/oliviakatrine" target="_blank">GitHub</a></li>
+    </ul>
+    <p>&copy; 2024 Olivia</p>
+</footer>
+
+<script src="script.js"></script>
+</body>  
+</html>

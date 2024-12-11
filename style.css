@@ -1,0 +1,220 @@
+:root {
+    --navbar-linkhover: #ff69b4;
+    --body-background: #ffffff;
+    --text-color: white; 
+    --button-background: pink; 
+    --text-decoration-color: rgb(253, 126, 207);
+    --hover-decoration: rgb(253, 126, 207);
+    --border-radius: 5px;
+}
+
+body {
+    background: linear-gradient(to right, rgb(253, 126, 207), rgb(255, 176, 40));
+    --text-color: var(--body-background);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--text-color);
+    text-align: center;
+    justify-content: center;
+}
+
+i {
+    font-size: 36px;
+}
+
+header {
+    text-align: center;
+    background-color: linear-gradient(to right, rgb(253, 126, 207), rgb(255, 176, 40));
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+header img {
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto 20px;
+    box-shadow: 0 4px var(--navbar-linkhover);
+}
+
+nav ul {
+    background-color: white;
+    list-style: none;
+    padding: 40px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px pink;
+}
+
+nav li {
+    margin: 0 15px; 
+    font-size: 20px;
+}
+
+nav a {
+    color: rgb(253, 126, 207);
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    color: var(--navbar-linkhover);
+    transform: scale(1.05);
+}
+
+.icon-links a {
+    margin: 0 10px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.icon-links a:hover i {
+    color: #ff69b4;
+    transform: scale(1.05);
+    
+}
+
+#about-me,
+#skills,
+#contact,
+#portfolio,
+#Referenser {
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.github-link {
+    color:#ffffff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.github-link:hover {
+    color: var(--body-background);
+    transform: scale(1.05);
+}
+
+button {
+    background-color: var(--body-background);
+    color: var(--text-decoration-color);
+    border-radius: var(--border-radius);
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--body-background);
+    transform: scale(1.05);
+}
+
+.submit-button {
+    background-color: rgb(253, 126, 207);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: var(--border-radius);
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.submit-button:hover {
+    background-color: var(--text-decoration-color);
+    transform: scale(1.05);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto 15px;
+    padding: 20px;
+    background-color: white;
+    color: rgb(253, 126, 207);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px pink;
+    justify-content: center;
+}
+
+form textarea {
+    resize: none;
+    height: 100px;
+}
+
+form input,
+form textarea {
+    color: rgb(253, 126, 207);
+    border: 2px solid rgb(253, 126, 207);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+form input::placeholder,
+form textarea::placeholder {
+    color: rgb(255, 176, 40);
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: #ff69b4;
+    box-shadow: 0 0 5px rgb(253, 126, 207);
+    outline: none;
+}
+
+footer {
+    background-color: white;
+    color: rgb(253, 126, 207);
+    text-align: center;
+    padding: 40px;
+    width: 70%;
+    margin: 0 auto 40px;
+    display: flex;
+    gap: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px var(--navbar-linkhover);
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a {
+    color: rgb(253, 126, 207);
+    text-decoration: none;
+    display: inline-block; 
+    transition: transform 0.2s ease, color 0.2s ease; 
+}
+
+footer a:hover {
+    color: rgb(255, 176, 40);
+    transform: scale(1.2); 
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}

@@ -17,7 +17,8 @@ Funktioner
 • Responsiv design: Webbplatsen är designad för att vara responsiv och se bra ut på olika skärmstorlekar.
 • Interaktiva element: JavaScript lägger till interaktiva element i portföljen.
 • Nedladdningsbart CV: Ett exempel på CV finns tillgängligt för nedladdning.
-Hur man kör projektet
+
+Hur man kör projektet:
 1. Klona repot:
 git clone https://github.com/dittanvändarnamn/portfolio-master.git
 2. Öppna `index.html` i din webbläsare.

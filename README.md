@@ -27,5 +27,4 @@ Anpassning
 • Redigera `index.html`, `style.css` och `script.js` för att lägga till din egen information och personliga design.
 Skärmbild
 ![Skärmbild av portföljen](Images/Jag.jpg)
-Licens
-Detta projekt är öppen källkod och finns tillgängligt under MIT-licensen.
+

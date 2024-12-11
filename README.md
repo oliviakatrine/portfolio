@@ -1,4 +1,5 @@
 Portföljprojekt
+
 Detta är en enkel portföljwebbplats utformad för att visa upp färdigheter, erfarenheter och projekt. Projektet innehåller HTML-, CSS- och JavaScript-filer för att skapa en funktionell och responsiv webbplats.
 Projektstruktur
 ```
@@ -14,8 +15,11 @@ portfolio-master/
     └── FejkCV.pdf      # Exempel på CV/meritförteckning
 ```
 Funktioner
+
 • Responsiv design: Webbplatsen är designad för att vara responsiv och se bra ut på olika skärmstorlekar.
+
 • Interaktiva element: JavaScript lägger till interaktiva element i portföljen.
+
 • Nedladdningsbart CV: Ett exempel på CV finns tillgängligt för nedladdning.
 
 Hur man kör projektet:
